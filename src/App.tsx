@@ -4,7 +4,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 const router = createBrowserRouter([
         {
             path: '/',
-            element: <div/>,
+            element: <h1>Main Page</h1>,
         },
         {
             path: '/auth',
