@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,24 @@
   "bugs": {
     "url": "https://github.com/MariaLink24/dupefigma/issues"
   },
-  "homepage": "https://github.com/MariaLink24/dupefigma#readme"
+  "homepage": "https://github.com/MariaLink24/dupefigma#readme",
+  "devDependencies": {
+    "@types/react": "18.2.73",
+    "@types/react-dom": "18.2.23",
+    "css-loader": "6.10.0",
+    "html-webpack-plugin": "5.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.23.0",
+    "style-loader": "3.3.4",
+    "ts-loader": "9.5.1",
+    "typescript": "4.9.5",
+    "webpack": "5.91.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.2"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.6.0"
+  }
 }
