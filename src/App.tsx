@@ -1,10 +1,12 @@
 import React from "react";
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import Dashboard from '../pages/Dashboard';
+import Room from "../pages/Room";
 
 const router = createBrowserRouter([
         {
             path: '/',
-            element: <h1>Main Page</h1>,
+            element: <Dashboard/>,
         },
         {
             path: '/auth',
@@ -16,7 +18,7 @@ const router = createBrowserRouter([
         },
         {
             path: '/room/:roomId',
-            element: <div/>,
+            element: <Room/>,
         },
         {
             path: '/create_room',
