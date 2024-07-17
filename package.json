@@ -2,7 +2,7 @@
   "name": "fakefigma",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production"
