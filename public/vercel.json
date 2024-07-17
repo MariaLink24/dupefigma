@@ -1,10 +1,4 @@
 {
-  "routes": [
-    { "src": "/create_room", "dest": "/" },
-    { "src": "/find_room", "dest": "/" },
-    { "src": "/room/:roomId", "dest": "/" },
-    { "src": "/select_room", "dest": "/" },
-    { "src": "/auth", "dest": "/" },
-    { "src": "/", "dest": "/" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "index.html" }]
+
 }
